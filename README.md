@@ -4,7 +4,7 @@ Data visualization project from Udacity's Data Analyst Nanodegree
 Summary
 
 Design
-![Alt text](relative/p7_v1.png?raw=true "Title")
+![Data Viz v1](p7_v1.png?raw=true "Version One")
 
 Feedback
 
