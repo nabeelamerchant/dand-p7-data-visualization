@@ -34,7 +34,25 @@ After getting feedback on the first version of the graph I modified several aspe
 
 <h4>Feedback</h4>
 
+Feedback 1 from my partner:
+- Confusion over pclass vs ticket class
+- Confusion over which bars related to males vs females
+- Surprised at how many females survived as compared to males
+- The comparisons would be easier to make if the bar was vertical rather than horizontal
+
+Feedback 2 from my brother:
+- Thought the colours related to gender
+- Didn't know what the better class was
+- After interacting with the diagram for a bit the distinction between the bars became clear as did the better survival of women and upper class people, but it would be better to have the bars labeled with male and female
+
+Feedback 3 from my friend:
+- Kind of difficult at first to figure out what the different bars represented (ticket class or gender...).
+- It's neat how you can choose between the count and percentage, though I prefer the percentage data. It would be nice if that was the first thing that was displayed, instead of the count.
+- It's not obvious that you can hover over the bars to get more data, but once I discovered that it was fun to explore the values. That also helped a lot with figuring out which bars were for men vs. women.
+- It's interesting but not surprising to see that rich people and women had a higher chance of survival.
+
 <h4>Resources</h4>
+
 - http://dimplejs.org/examples_viewer.html?id=bars_horizontal_grouped_stacked
 - https://stackoverflow.com/questions/32232518/how-to-change-the-order-of-grouped-bar-chart-in-dimple
 - https://classroom.udacity.com/nanodegrees/nd002/parts/00213454010/modules/318423863275460/lessons/3066258748/concepts/31058087130923
