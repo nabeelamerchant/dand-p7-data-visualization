@@ -30,6 +30,7 @@ After getting feedback on the first version of the graph I modified several aspe
 - Added labels to the male and female bars
 - Added a description to the visualization
 - Made the percentage view the initial view
+- Created a TicketClass variable so that the data in the interation aligns with the axis label
 
 <h5>Second version of the data visualization:</h5>
 
