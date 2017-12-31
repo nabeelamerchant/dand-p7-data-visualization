@@ -10,12 +10,16 @@ This visualization depicts some of the findings from the Titanic dataset, which 
 Given that this dataset was part of an earlier project, I had a sense of the findings and spent some time thinking about how to best visualize it. I wanted to highlight the difference in survival rate between men and women, as well as the impact of ticket class on survival. My initial thought process can be seen in the sketch below.
 
 <h5>Intitial sketch of the data visualization:</h5>
+
 ![Sketch](sketch.png)
+
 
 I started by first putting together the grouped horizontal bar chart and then figuring out how to add the interactivity through the use of the "Count" and "Percentage" buttons. The bar charts were stacked based on survival and grouped based on gender so that the male vs. female survival rates could be compared easily.
 
 <h5>First version of the data visualization:</h5>
+
 ![v1](p7_v1.png)
+
 
 After getting feedback on the first version of the graph I modified several aspects, namely:
 - Switched from a horizontal to a vertical bar chart
@@ -24,7 +28,9 @@ After getting feedback on the first version of the graph I modified several aspe
 - Made the percentage view the initial view
 
 <h5>Second version of the data visualization:</h5>
+
 ![v2](p7_v2.png)
+
 
 <h4>Feedback</h4>
 
