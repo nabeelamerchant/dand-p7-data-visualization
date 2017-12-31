@@ -7,12 +7,16 @@ This visualization depicts some of the findings from the Titanic dataset, which 
 
 <h4>Design</h4>
 
-Given that this dataset was part of an earlier project, I had a sense of the findings and spent some time thinking about how to best visualize it. I wanted to highlight the difference in survival rate between men and women, as well as the impact of ticket class on survival. My initial thought process can be seen in the sketch below.
+Given that this dataset was part of an earlier project, I had a sense of the findings and spent some time thinking about how to visualize it. I wanted to highlight the difference in survival rate between men and women, as well as the impact of ticket class on survival. My initial thought process can be seen in the sketch below.
 
 <h5>Intitial sketch of the data visualization:</h5>
 
 ![Sketch](sketch.png)
 
+
+Initially I was going to facet the graphs between men and women, but realised that the results might be hard to compare especially since one of the points I wanted to make was the difference in survival between the genders. As a result, I decided to use a combination of grouping and stacking with the bar charts to display the data. The bar charts made for easy comparison (positional data encoding), the stacks represented the survival, each group represented a class, and the bars inside each group corresponded to women and men respectively. A legend would be present to distinguish between the stacks.
+
+As the bars were stacked, I would be using different colours to distinguish between the stacks. I initially played around with the colours of the stacks, but then settled on the default colours as the red corresponds to those who perished, the pastel colours were pleasing to the eye, and my initial thoughts about red and green didn't take colour blindness into consideration.
 
 I started by first putting together the grouped horizontal bar chart and then figuring out how to add the interactivity through the use of the "Count" and "Percentage" buttons. The bar charts were stacked based on survival and grouped based on gender so that the male vs. female survival rates could be compared easily.
 
