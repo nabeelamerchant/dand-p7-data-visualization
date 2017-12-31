@@ -54,7 +54,6 @@
     function draw(data) {
       
       //D3.js setup code
-
           "use strict";
           var margin = 75,
               width = 1000 - margin,
@@ -191,9 +190,6 @@
             //legend
             var svg_width = d3.select("svg").node().getBBox.width;
             var myLegend = myChart.addLegend(500, 10, 380, 20,"right");
-            myChart.legendLabel = "Did they survive:"; //doesn't work
-            //set some colours
-            //myChart.defaultColors = [new dimple.color("orange"),new dimple.color("blue")];  // You can use #RGB here 
             //draw chart
             myChart.draw();
             genderLabels();
